@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap");
+}
+
+:root{
+    --white : #fff;
+    --black : #000;
+    --gris-oscuro: #373a3c;
+    --danger: #dc3545;  
+    --gris-claro: #dddddd;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar{
+    background-color: var(--gris-oscuro);
+}
+
+.navbar-brand{
+    font-family: 'Lobster', sans-serif;
+}
+
+.nav-link{
+    color: var(--white);
+}
+
+.nav-link:hover{
+    color:var()
+}
+.carousel .carousel-indicators button{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: var(--danger);
+}
+
+.texto-ricomida{
+    font-family: 'Lobster', sans-serif;
+}
